@@ -1,0 +1,27 @@
+body{
+    background-color: black;
+    color: white;
+}
+h1{
+    font-family: cursive;
+    font-style: italic;
+}
+#sketch{
+    float: right;
+    background-color: black;
+    margin-right: 25px;
+}
+p{
+    margin-top: 10px;
+}
+canvas{
+    border: 2px;
+    border-radius: 30px;
+    animation-name: anime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes anime{
+    from{box-shadow: 1px 1px 38px plum;}
+    to{box-shadow: 1px 1px 38px powderblue;}
+}
